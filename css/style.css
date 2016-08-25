@@ -5,7 +5,7 @@
 a{/*color menu*/
 	color: #bd538d;
 }
-.fondoimg{
+.fondoimg{/*imagen de primer seccion*/
 	background-image: url(../img/fondo.jpg);
 	height: 600px;
 	background-size:100% 100%;
@@ -13,18 +13,34 @@ a{/*color menu*/
 .blanco{/*texto blanco*/
 	color:white;
 }
-.azul{
+.azul{/*azul marino*/
 	color: #28144F;
 }
 .alineacion{/*centrar texto*/
 padding-top: 10%;
 padding-right: 5%;
 }
-hr{
+hr{/*primer hr*/
 	width: 70%;
 }
 .backrosa{
 	background-color: #BD538D;
+}
+.imagenes{/*tamaño de imagenes*/
+	width: 50%;
+	height:50%;
+	padding: 2%;
+}
+.backazul{
+	background-color: #28144F;
+}
+.backazulclaro{/*background azul*/
+	background-color: #CFE2F3;
+}
+a:hover{/*hover a los links*/
+	color:#3DA3EF; 
+	text-decoration:underline; 
+	font-weight:bold
 }
 
 /*imagenes que cambian*/
