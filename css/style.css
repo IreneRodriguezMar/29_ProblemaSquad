@@ -1,0 +1,23 @@
+
+.fondo{/*fondo header*/
+	background-color: #1D0048;
+}
+a{/*color menu*/
+	color: #bd538d;
+}
+.fondoimg{
+	background-image: url(../img/fondo.jpg);
+	height: 700px;
+	background-size:100% 100%;
+}
+
+.navbar-default{/*para que no me de el fondo que tiene
+	poe default en bootstrap*/
+	background-color: transparent !important;
+	border:none !important;
+}
+@media screen and (max-width: 800px;){
+   .fondonav{/*para que si me de el fondo*/
+   	background-color: #e7e7e7;
+	}
+}
